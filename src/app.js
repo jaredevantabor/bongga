@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './app.css';
-import NavBar from './nav-bar';
-import SubNavBar from './sub-nav-bar'
+import NavBar from './nav/nav-bar';
+import SubNavBar from './nav/sub-nav-bar'
 import Viewport from './viewport';
 
 class App extends Component {
