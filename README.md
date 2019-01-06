@@ -40,5 +40,11 @@ assistance getting setup with git.
 Assuming you've been given access to the AWS instance, changes pushed to this repository can
 automatically be published to the production environment. To publish the repo, run the following command.
 ```
+npm run build
+``` 
+and then
+
+```
 npm run deploy
 ```
+This will build the site and deploy it directly to AWS.
